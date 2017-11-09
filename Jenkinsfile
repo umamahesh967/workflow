@@ -11,7 +11,7 @@ node {
         /* This builds the actual image; synonymous to
          * docker build on the command line */
 
-        app = docker.build("umamahesh967/workflow")
+        app = docker.build("umamaheshdocker/workflow")
     }
 
     stage('Test image') {
