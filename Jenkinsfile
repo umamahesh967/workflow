@@ -6,8 +6,7 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'node --version'
-		sh 'mvn --version'
-		 sh 'mvn -B'
+		sh 'sudo docker ps -a'
             }
         }
     }
