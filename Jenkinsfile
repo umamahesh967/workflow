@@ -6,8 +6,8 @@ pipeline {
         stage('Test') {
             steps {
                 sh 'node --version'
-		sh 'docker images'
-		sh 'docker ps'
+		sh 'mvn --version'
+		 sh 'mvn -B'
             }
         }
     }
